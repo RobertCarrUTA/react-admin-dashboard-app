@@ -1,4 +1,4 @@
-# React-Admin-Dashboard-App
+# react-admin-dashboard-app
 
 
 # Compile Instructions - run the application without the website
