@@ -12,6 +12,6 @@ For these insturcutions we will be using Visual Studio Code on a Windows system,
    1. You can check to see if node is installed on your Windows machine by opening the terminal and typing "node --version"
    2. If node is not on your machine (an error showed up), you can go to https://nodejs.org/en/download/ and install it.
    3. After the installation is finished, type "node --version" again in the terminal to see if node has been installed successfully.
-   4. If the installation is succefful, go into your project folder while in the terminal and enter "npx create-react-app ./"
+   4. If the installation is successful, go into your project folder while in the terminal and enter "npx create-react-app ./"
 3. To install the necessary dependencies, in the terminal, in your project folder, enter "npm install 
 --legacy-peer-deps"
