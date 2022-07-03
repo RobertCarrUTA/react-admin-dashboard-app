@@ -3156,22 +3156,22 @@ export const ecomPieChartData = [
 
 export const stackedChartData = [
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
+    { x: 'Jan', y: 210.1 },
+    { x: 'Feb', y: 250 },
     { x: 'Mar', y: 143.4 },
     { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'May', y: 240 },
+    { x: 'Jun', y: 180 },
+    { x: 'July', y: 260 },
   ],
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Jan', y: 250 - 210.1 },
+    { x: 'Feb', y: 280 - 250 },
+    { x: 'Mar', y: 300 - 143.4 },
+    { x: 'Apr', y: 300 - 159.9 },
+    { x: 'May', y: 300 - 240 },
+    { x: 'Jun', y: 300 - 180 },
+    { x: 'July', y: 300 - 260 },
   ],
 ];
 
@@ -3180,7 +3180,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Budget',
+    name: 'Expense',
     type: 'StackingColumn',
     background: 'blue',
 
@@ -3189,7 +3189,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Expense',
+    name: 'Remaining Budget',
     type: 'StackingColumn',
     background: 'red',
 
