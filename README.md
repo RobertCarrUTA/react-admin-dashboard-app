@@ -7,9 +7,6 @@
   * [Pages Within the Project](#pages-within-the-project)
   * [Applications Within the Project](#applications-within-the-project)
 
-# react-admin-dashboard-app
-*README.md is a work in progress*
-
 ## About This Project
 This administrative dashboard project provides users with the ability to view important business metrics (view recent transactions, provide an overview of sales), manage users and customers, view several different charts, a text editor, and an editable calendar for events. Designed to work on mobile devices, the dashboard is fully customizable and responsive. Light and dark themes can be toggled and theme colors can be changed. In addition to the dashboard, there are three pages, four apps, and seven fully functional charts in the project.
 
