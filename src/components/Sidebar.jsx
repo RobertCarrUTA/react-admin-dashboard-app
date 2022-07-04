@@ -64,8 +64,8 @@ const Sidebar = () => {
                       isActive ? activeLink : normalLink
                     }
                   >
-                    <div className="dark:text-white">{link.icon}</div>
-                    <span className="capitalize dark:text-white">
+                    <div className="dark:text-white hover:dark:text-black">{link.icon}</div>
+                    <span className="capitalize dark:text-white hover:dark:text-black">
                       {link.name}
                     </span>
                   </NavLink>
