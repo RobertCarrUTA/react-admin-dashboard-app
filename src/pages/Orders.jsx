@@ -1,8 +1,21 @@
-import React from 'react';
-import  { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Inject } from '@syncfusion/ej2-react-grids';
+import React from "react";
+import {
+  GridComponent,
+  ColumnsDirective,
+  ColumnDirective,
+  Resize,
+  Sort,
+  ContextMenu,
+  Filter,
+  Page,
+  ExcelExport,
+  PdfExport,
+  Edit,
+  Inject,
+} from "@syncfusion/ej2-react-grids";
 
-import { ordersData, contextMenuItems, ordersGrid } from '../data/dummy';
-import { Header } from '../components';
+import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
+import { Header } from "../components";
 
 const Orders = () => {
   return (
@@ -21,10 +34,21 @@ const Orders = () => {
         </ColumnsDirective>
         {/* The below Inject allows for us to select what page of orders to view
          The features in the inject are included in the array*/}
-        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, Edit, PdfExport]} />
+        <Inject
+          services={[
+            Resize,
+            Sort,
+            ContextMenu,
+            Filter,
+            Page,
+            ExcelExport,
+            Edit,
+            PdfExport,
+          ]}
+        />
       </GridComponent>
     </div>
-  )
-}
+  );
+};
 
 export default Orders;
