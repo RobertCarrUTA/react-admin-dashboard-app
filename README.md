@@ -8,11 +8,11 @@
   * [Applications Within the Project](#applications-within-the-project)
 
 ## About This Project
-This administrative dashboard project provides users with the ability to view important business metrics (view recent transactions, provide an overview of sales), manage users and customers, view several different charts, a text editor, and an editable calendar for events. Designed to work on mobile devices, the dashboard is fully customizable and responsive. Light and dark themes can be toggled and theme colors can be changed. In addition to the dashboard, there are three pages, four apps, and seven fully functional charts in the project.
+This administrative dashboard project provides users with the ability to view important business metrics (view recent transactions, supply an overview of sales), manage users and customers, view several different charts, a text editor, and an editable calendar for events. Designed to work on mobile devices, the dashboard is fully customizable and responsive. Light and dark themes can be toggled, and theme colors can be changed. In addition to the dashboard, there are three pages, four apps, and seven fully functional charts in the project.
 
 The contents of this dashboard are not specialized, so they can be used for other projects as well. As a result, the project's components are portable.
 
-Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. In essence, Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. Additionally, Syncfusion (https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
+Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. Additionally, Syncfusion (https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
 
 The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
 
@@ -33,8 +33,8 @@ Orders are displayed on the first page, which includes a pagination system. On t
 
 ## Applications Within the Project
 
-In the first of the four apps, you will find a fully functional calendar. This calendar allows you to easily create events, drag and drop them into different days and times, as well as edit their titles, and locations, along with their start and end times. Additionally, the calendar allows the user to choose the time zone of the event, select if it is an all-day event, and enter a description. Several ways are available for viewing the calendar. In addition to having the option to view the calendar as an agenda list, the calendar view can cover a day, a week, or a month.
+In the first of the four apps, you will find a fully functional calendar. This calendar allows you to easily create events, drag and drop them into different days and times, as well as edit their titles, and locations, along with their start and end times. Additionally, the calendar allows the user to choose the time zone of the event, select if it is an all-day event, and enter a description. Several ways are available for viewing the calendar. In addition to having the choice to view the calendar as an agenda list, the calendar view can cover a day, a week, or a month.
 
-Secondly, there's a Kanban board app for agile project management, which helps visualize work, control work-in-progress, and maximize efficiency.
+Secondly, there is a Kanban board app for agile project management, which helps visualize work, control work-in-progress, and maximize efficiency.
 
 The third app is a fully-fledged word editor that allows the user to bold, italicize, underline, justify, and bullet or number text, among other features.
