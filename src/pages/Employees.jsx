@@ -1,8 +1,16 @@
-import React from 'react';
-import  { GridComponent, ColumnsDirective, ColumnDirective, Page, Search, Inject, Toolbar } from '@syncfusion/ej2-react-grids';
+import React from "react";
+import {
+  GridComponent,
+  ColumnsDirective,
+  ColumnDirective,
+  Page,
+  Search,
+  Inject,
+  Toolbar,
+} from "@syncfusion/ej2-react-grids";
 
-import { employeesData, employeesGrid } from '../data/dummy';
-import { Header } from '../components';
+import { employeesData, employeesGrid } from "../data/dummy";
+import { Header } from "../components";
 
 const Employees = () => {
   return (
@@ -13,7 +21,7 @@ const Employees = () => {
         dataSource={employeesData}
         allowPaging
         allowSorting
-        toolbar={['Search']}
+        toolbar={["Search"]}
         width="auto"
       >
         <ColumnsDirective>
@@ -26,7 +34,7 @@ const Employees = () => {
         <Inject services={[Page, Search, Toolbar]} />
       </GridComponent>
     </div>
-  )
-}
+  );
+};
 
 export default Employees;
