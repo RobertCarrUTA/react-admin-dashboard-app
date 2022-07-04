@@ -12,7 +12,9 @@ This administrative dashboard project provides users with the ability to view im
 
 The contents of this dashboard are not specialized, so they can be used for other projects as well. As a result, the project's components are portable.
 
-Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. In essence, Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
+Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. In essence, Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. Additionally, Syncfusion (https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
+
+The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
 
 ## Compile Instructions - run the application without the website
 For these insturcutions we will be using Visual Studio Code on a Windows system, but you can use other tools and operating systems if you wish.
