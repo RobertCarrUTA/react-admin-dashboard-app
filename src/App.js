@@ -11,16 +11,21 @@ import { useStateContext } from './contexts/ContextProvider';
 import './App.css';
 
 const App = () => {
-  const { activeMenu } = useStateContext(); { /* Use activeMenu as a hook */}
+  const { activeMenu, themeSettings, setThemeSettings, currentColor, currentMode } = useStateContext();
   
   return (
-    <div>
+    <div className={currentMode === 'Dark' ? 'dark' : ''}>
+      {/* The above line of code allows for the app to switch between light and dark modes */}
       <BrowserRouter>
         <div className = "flex relative dark:bg-main-dark-bg">
           <div className = "fixed right-4 bottom-4" style = {{ zindex: '1000'}}>
+            
+            {/* Settings Button */}
             <TooltipComponent content= "Settings" position = "Top">
               <button type = "button" className = "text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
-              style = {{ background: 'blue', borderRadius: '50%' }}>
+                style = {{ background: currentColor, borderRadius: '50%' }}
+                onClick={() => setThemeSettings(true)}
+              >
                 <FiSettings />
               </button>
             </TooltipComponent>
@@ -37,19 +42,17 @@ const App = () => {
           <div className = {
             // Use of a template string below makes code shorter while achieving the same outcome
             // When things are partially repetitive (shared classes), use a template string like this to shorten the code
-            `dark:bg-main-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`
+            `dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`
           }>
             <div className = 'fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
               <Navbar />
             </div>          
 
-          {/* Theme Component */}
-          <div>
-            <ThemeSettings />
-          </div>
-
           {/* Sidebar routes */}
           <div>
+            {/* Theme Component */}
+            {themeSettings && <ThemeSettings />}
+            
             <Routes>
               {/* Dashboard */}
               <Route path = "/" element = {<Ecommerce/>} />
