@@ -17,7 +17,7 @@ Through this project, it is my goal to learn new skills with React for web devel
 The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
 
 ## Compile Instructions - run the application without the website
-For these insturcutions we will be using Visual Studio Code on a Windows system, but you can use other tools and operating systems if you wish.
+For these instructions we will be using Visual Studio Code on a Windows system, but you can use other tools and operating systems if you wish.
 1. Download project into Visual Studio Code
 2. Make sure node is installed on your Windows machine
    1. You can check to see if node is installed on your Windows machine by opening the terminal and typing "node --version"
