@@ -3,6 +3,7 @@
 # Table of Contents
 - [react-admin-dashboard-app](#react-admin-dashboard-app)
   * [About This Project](#about-this-project)
+  * [Project Demo Video](#project-demo-video)
   * [Compile Instructions - run the application without the website](#compile-instructions---run-the-application-without-the-website)
   * [Pages Within the Project](#pages-within-the-project)
   * [Applications Within the Project](#applications-within-the-project)
@@ -15,6 +16,9 @@ The contents of this dashboard are not specialized, so they can be used for othe
 Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. Additionally, Syncfusion (https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
 
 The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
+
+## Project Demo Video
+https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe?utm_source=linkedin_share&utm_medium=member_desktop_web
 
 ## Compile Instructions - run the application without the website
 *COMPILE INSTRUCTIONS MIGHT NOT WORK AS OF RIGHT NOW*
