@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Notification = () => {
   return (
@@ -6,4 +6,4 @@ const Notification = () => {
   )
 }
 
-export default Notification
+export default Notification;
