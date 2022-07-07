@@ -18,6 +18,10 @@ Through this project, it is my goal to learn new skills with React for web devel
 The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
 
 ## Project Demo Video
+YouTube:
+https://www.youtube.com/watch?v=DkIGse8dPmM
+
+LinkedIn:
 https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe?utm_source=linkedin_share&utm_medium=member_desktop_web
 
 ## Compile Instructions - run the application without the website
