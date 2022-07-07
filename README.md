@@ -1,4 +1,4 @@
-*README.md is a work in progress*
+*README.md is still under construction (the project is still not completed)*
 
 # Table of Contents
 - [react-admin-dashboard-app](#react-admin-dashboard-app)
