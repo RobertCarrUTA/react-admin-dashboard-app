@@ -3,7 +3,7 @@
 # Table of Contents
 - [react-admin-dashboard-app](#react-admin-dashboard-app)
   * [About This Project](#about-this-project)
-  * [Project Demo Video](#project-demo-video)
+  * [Project Demo Videos](#project-demo-videos)
   * [Compile Instructions - run the application without the website](#compile-instructions---run-the-application-without-the-website)
   * [Pages Within the Project](#pages-within-the-project)
   * [Applications Within the Project](#applications-within-the-project)
@@ -13,16 +13,14 @@ This administrative dashboard project provides users with the ability to view im
 
 The contents of this dashboard are not specialized, so they can be used for other projects as well. As a result, the project's components are portable.
 
-Through this project, it is my goal to learn new skills with React for web development. During development, the Tailwind CSS framework was used. Tailwind (https://tailwindcss.com/) is designed for creating fast and custom user interfaces. Additionally, Syncfusion (https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
+Through this project, it is my goal to learn new skills with React for web development. During development, the [Tailwind CSS](https://tailwindcss.com/) framework was used. Tailwind is designed for creating fast and custom user interfaces. Additionally, [Syncfusion](https://www.syncfusion.com/) is extensively utilized in this project. With Syncfusion, developers can develop high-quality, professional looking UI components very quickly.
 
 The free online course that provided this learning experience can be found here: https://youtu.be/jx5hdo50a2M
 
-## Project Demo Video
-YouTube:
-https://www.youtube.com/watch?v=DkIGse8dPmM
+## Project Demo Videos
+[YouTube Project Demo](https://www.youtube.com/watch?v=DkIGse8dPmM)
 
-LinkedIn:
-https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe/
+[LinkedIn Post](https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe/)
 
 ## Compile Instructions - run the application without the website
 *COMPILE INSTRUCTIONS MIGHT NOT WORK AS OF RIGHT NOW*
