@@ -22,7 +22,7 @@ YouTube:
 https://www.youtube.com/watch?v=DkIGse8dPmM
 
 LinkedIn:
-https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe?utm_source=linkedin_share&utm_medium=member_desktop_web
+https://www.linkedin.com/posts/robert-carr-90561a238_a-react-project-i-recently-completed-is-shown-activity-6949978343450587136-9Dwe/
 
 ## Compile Instructions - run the application without the website
 *COMPILE INSTRUCTIONS MIGHT NOT WORK AS OF RIGHT NOW*
